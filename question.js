@@ -2,8 +2,6 @@ function Question(title, answers, correctAnswer) {
     this.title = title;
     this.answers = answers;
     this.correctAnswer = correctAnswer;
-    this.guess = '';
-    this.answered = false;
 }
 
 Question.prototype.shuffle = function (answers) {

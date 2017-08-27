@@ -15,7 +15,7 @@ $(document).on('click','button',function () {
     }
     console.log(quiz.currentQuestionIndex);
     quiz.nextQuestion();
-    if(!quiz.endgame){
+    if(!quiz.endGame){
         clearQuiz();
         renderQuestion(quiz.getCurrentQuestion());
         renderQuestionNumber(quiz.currentQuestionIndex + 1, quiz.questions.length);

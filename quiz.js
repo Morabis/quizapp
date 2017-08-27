@@ -2,7 +2,7 @@ function Quiz() {
     this.questions = [];
     this.currentQuestionIndex = 0;
     this.score = 0;
-    this.endgame = false;
+    this.endGame = false;
 }
 
 Quiz.prototype.add = function (question) {
@@ -36,6 +36,6 @@ Quiz.prototype.nextQuestion = function () {
     }
     else
     {
-        this.endgame = true;
+        this.endGame = true;
     }
 };
